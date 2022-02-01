@@ -202,7 +202,8 @@ span{
 }
 .testimunial-img{
     width: 15%;
-    margin:20px;
+    height: 10%;
+    margin:15px;
 }
 .carousel-item{
     padding: 7% 15%;
@@ -318,7 +319,7 @@ span{
 
 
 #footer-info{
-    padding: 12px;
+    margin-top: 48px;
     color: var(--white);
     font-family: 'Sarala' sans-serif;
     font-size: 15px;
