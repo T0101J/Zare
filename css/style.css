@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Montserrat&family=Righteous&family=Sarala&display=swap');
+
+
+
+:root{
+    --black: #000000;
+    --white: #ffffff;
+    --soft-gray:#dedad7;
+    --gray-blue: #b5c0c6;
+    --brown: #9a7461;
+    --Green: #475a57;
+    --dark-gray: #575c5f;
+    --azul: #001a8b;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background: var(--black);
+    
+}
+span{
+    color: var(--azul);
+}
+.pre-contato{
+    background: var(--azul);
+    color: var(--white);
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    padding: 2px;
+    font-family:'Sarala', sans-serif;
+}
+.contact{
+    margin-left: 72px;
+    font-size: 0.8rem;
+
+}
+.social{
+    margin-left: auto;
+    margin-right: 72px;
+}
+
+.cabecalho{
+    display:flex;
+    flex-direction: row;
+    align-items:flex-end;
+    justify-content:space-around;
+    padding: 12px;
+    margin: 0;
+    border-bottom: 1px var(--dark-gray) solid ;
+
+}
+
+.img-cabecalho{
+    height: 90px;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 72px;
+    align-items: center;
+}
+
+.menu-item{
+    font-family:'Sarala', sans-serif;
+    color: var(--white);
+    font-weight:400;
+    font-size: 16px;   
+    text-decoration:none;
+}
+.menu-item:hover{
+    color: var(--dark-gray);
+
+}
+
+.barra_pesquisa{
+    width: 24rem;
+    display: flex;
+
+}
+
+.conteudo{
+    box-shadow: 2px var(--black);
+}
+
+.conteudo-principal{
+    display: flex;
+    flex:row;
+    align-items:center;
+    justify-content:center;
+}
+
+.img-conteudo{
+    height:430px;
+}
+
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.conteudo-titulo1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 32px;
+    color: var(--white);
+}
+
+.conteudo-titulo2{
+    font-family: 'Montserrat', sans-serif;
+    color: var(--white);
+    font-weight:400;
+    font-size: 24px;
+}
+
+
+.botao-conteudo{
+    background-color: var(--azul);
+    width: 180px;
+    height: 48px;
+    border: none;
+    box-shadow:  4px 5px 4px var(--black);
+    border-radius: 20px;
+    font-family:'Sarala', sans-serif;
+    color:var(--white);
+    font-weight:400;
+    font-size: 18px;
+    margin:24px 0px 0px 0px;
+}
+.botao-conteudo:hover {
+    background-color: var(--soft-gray);
+    color: var(--black);
+}
+
+/* div coringa alinha section */
+.divide{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.divide-titulo{
+    padding: 10px 0px 20px 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 2.5rem;
+    color: var(--black);
+ }
+
+ .hr-section{
+    border: dotted 8px var(--dark-gray);
+    border-bottom: none;
+    width: 4%;
+    margin: auto;
+    background: var(--soft-gray);
+}
+
+ /* section de nossos serviços */
+.servico{
+    background-color: var(--soft-gray);
+    padding: 48px;
+
+}
+
+.card{
+   margin: 24px 24px 24px 24px;
+   background: var(--black);
+   box-shadow:  2px 2px 2px 2px var(--azul);
+   color: var(--white);
+   align-items: center;
+   padding: 24px;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.card li {
+    align-items: center;
+}
+
+.conteudo-secundario-paragrafo{
+    font-family: 'Righteous', cursive;
+    font-weight: 300;
+    font-size: 18px;
+   color: #fff2ef;
+}
+ /* fim da section serviços */
+
+/* carrosel */
+.clientes{
+    text-align: center;
+    font-family:'Sarala', sans-serif;
+}
+.testimunial-img{
+    width: 15%;
+    margin:20px;
+}
+.carousel-item{
+    padding: 7% 15%;
+    color:  var(--white);
+}
+
+ /* section proposito */
+ .proposito{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    gap: 48px;
+    background-color: var(--soft-gray);
+    padding: 48px;
+    
+}
+ 
+ .proposito-principal{
+     font-family:'Sarala', sans-serif;
+     font-weight: 400;
+     
+}
+
+.proposito-principal h1{
+    margin-top:72px;
+
+}
+
+
+.proposito-secundario{
+    font-family:'Sarala', sans-serif;
+    font-weight: 400;
+    text-align: justify; 
+    
+}
+.proposito-secundario img {
+    width: 600px;
+    height: 350px;
+    margin-bottom: 24px;
+    border-radius: 10%;
+}
+ /* proposito card final */
+.cardfinal{
+    background-image: -webkit-linear-gradient(65deg,var(--azul) 10%, var(--black) 80%);
+
+}
+.card-proposito{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0px 48px 0px 48px;
+    padding: 48px;
+
+}
+#div-texto{
+    text-align: justify;
+    color: var(--black);
+    background-color: var(--soft-gray);
+    padding: 0px 72px 72px 72px;
+}
+
+#div-texto h4{
+    text-align: center;
+}
+
+.imagem img{
+    width: 500px;
+    height: 650px;
+    margin-bottom: 24px;
+    border-radius: 20%;
+}
+
+.image-content{
+    display: flex;
+    align-items: center;
+    margin-left: 48px;
+
+}
+
+.image-content p {
+    padding: 72px;
+    text-align: justify;
+    color: var(--white);
+    font-family:'Montserrat', sans-serif;
+    border: solid 2px var(--white);
+   
+}
+
+.rodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    padding: 24px;
+    background-color: var(--black);
+}
+.rodape li{
+    text-decoration: none;
+    list-style-type: none;
+    color: var(--white);
+}
+
+.rodape a{ 
+    text-decoration: none;
+    color: var(--white);
+    line-height: 3rem;
+    padding: 24px;
+}
+
+.rodape a:hover{
+    color: var(--soft-gray);
+}
+
+
+#footer-info{
+    padding: 12px;
+    color: var(--white);
+    font-family: 'Sarala' sans-serif;
+    font-size: 15px;
+    text-align: center;
+
+}
+
+
